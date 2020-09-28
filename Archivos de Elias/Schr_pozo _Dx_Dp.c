@@ -30,7 +30,7 @@ double V(double x)
 
   /* Incluir la definicion para otro potencial.*/
 }
-main()
+int main()
 { /* Metodo de diferencias finitas.
     Sea la funcion de onda F(x)
     y la Ec. de Schrodinger 1d: [-h^2/m d^2/dx^2-V(x)]F(x)=EF(x)
