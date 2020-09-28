@@ -45,4 +45,5 @@ Si no, envía un mensaje por GitHub.
 >- Unai Lería Fortea
 >- Jose Segovia Burillo
 >- Pablo Vizcaíno García
+>- Víctor Loras Herrero
 # FAQ
