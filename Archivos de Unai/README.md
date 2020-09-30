@@ -2,7 +2,7 @@
 Para más información sobre los archivos en esta carpeta busque el archivo en [Archivos](#archivos).
 
 # Archivos
-- [Creador de librerias de lectura](leer%datos_creador%de%libreria)
+- [Creador de librerias de lectura](leer%datos_creador%de%libreria/)
   - [input_reader_creator.py](#creador-de-librerias-de-lectura-de-datos)
 
 
@@ -32,4 +32,8 @@ nombre_struct foo;
 nombre_funcion(&foo);
 ``` 
 Así tendrás en la variable ```foo``` de tipo ```nombre_struct``` los valores leídos del fichero ```nombre_libreria_config.txt```.
+
+# Qué puñetas es foo y por qué está en todas partes?
+> https://www.webopedia.com/TERM/F/foobar.html
+De nada
     
