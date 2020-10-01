@@ -4,7 +4,8 @@ Para más información sobre los archivos en esta carpeta busque el archivo en [
 # Archivos
 - [Creador de librerias de lectura](leer%datos_creador%de%libreria/)
   - [input_reader_creator.py](#creador-de-librerias-de-lectura-de-datos)
-  - [Schrödinger: Pozo](#schrödinger-pozo-de-elías-mejorado)
+- [Schrödinger: Pozo](#schrödinger-pozo-de-elías-mejorado)
+- [Ejercicio 12 Schrödinger](#ejercicio-12-schrödinger)
 - [foo](#qué-puñetas-es-foo-y-por-qué-está-en-todas-partes)
 
 
@@ -51,12 +52,24 @@ Así tendrás en la variable ```foo``` de tipo ```nombre_struct``` los valores l
 
 En el estado actual hace exactamente lo mismo que el código de Elías.
 
-#### Modificar condiciones:
+### Modificar condiciones:
 Puedes modificar las condiciones y variables del programa en el fichero: `input_reader_pozo_config.txt`
 Es extríctamente necesario escribir todos, y del mismo tipo que se especifica.
-#### Para compilar y ejecutar con VSCode:
+### Para compilar y ejecutar con VSCode:
 Es necesario abrir explícitamente la carpeta donde se encuentra el archivo `input_reader_pozo_config.txt`. De lo contrario no leerá los datos y finalizará la ejecución.
+### Linux:
+En ~/librerias/funciones.c `plot()`
+Cambiar:
+`system("Plot_Schr_pozo.plt");`
+por
+`system("gnuplot -p Plot_Schr_pozo.plt");`
 
+<!-- pagebreak -->
+
+
+
+## Ejercicio 12 Schrödinger
+No está bien. Pero avanza en la dirección correcta. Aconsejo modificar al gusto
 <!-- pagebreak -->
 # Qué puñetas es foo y por qué está en todas partes?
 > https://www.webopedia.com/TERM/F/foobar.html
