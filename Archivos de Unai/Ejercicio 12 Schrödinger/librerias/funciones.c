@@ -8,7 +8,7 @@ double V(c *conf, double x)
     if (x >= conf->a)
         return conf->V0 * x; // Pozo cuadrado  de profundidad V0 en eV.
     else
-        return 20;
+        return 50;
 }
 
 void super_print(FILE *output_file, const char *string, ...)
@@ -156,7 +156,7 @@ void plot(c *conf, double Vmax, double Vmin, double Phi2_max)
     fprintf(plot_load, "\n     'Schr_pozo_FdO.txt' using 1:3 axes x1y1 with lines lt 3 title 'F(x) pozo infinito',%c", 92);
     fprintf(plot_load, "\n     'Schr_pozo_FdO.txt' using 1:4 axes x1y2 with lines lt 1 title 'V(x) eV)'");
     fclose(plot_load);
-    system("Plot_Schr_pozo.plt");
+    system("gnuplot -p Plot_Schr_pozo.plt");
 }
 
 double foo(c *conf, double Vmax, double Vmin, double *matriz_tridiagonal)
