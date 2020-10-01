@@ -51,11 +51,17 @@ Así tendrás en la variable ```foo``` de tipo ```nombre_struct``` los valores l
 
 En el estado actual hace exactamente lo mismo que el código de Elías.
 
-#### Modificar condiciones:
+### Modificar condiciones:
 Puedes modificar las condiciones y variables del programa en el fichero: `input_reader_pozo_config.txt`
 Es extríctamente necesario escribir todos, y del mismo tipo que se especifica.
-#### Para compilar y ejecutar con VSCode:
+### Para compilar y ejecutar con VSCode:
 Es necesario abrir explícitamente la carpeta donde se encuentra el archivo `input_reader_pozo_config.txt`. De lo contrario no leerá los datos y finalizará la ejecución.
+### Linux:
+En ~/librerias/funciones.c `plot()`
+Cambiar:
+`system("Plot_Schr_pozo.plt");`
+por
+`system("gnuplot -p Plot_Schr_pozo.plt");`
 
 <!-- pagebreak -->
 # Qué puñetas es foo y por qué está en todas partes?
