@@ -97,6 +97,7 @@ int main()
 	free(diagonal_principal);
 	free(diagonal_secundaria);
 	free(*matriz_tridiagonal);
+	free(matriz_diagonal);
 	printf("\n Teclear <RET> para terminar");
 	getchar();
 }

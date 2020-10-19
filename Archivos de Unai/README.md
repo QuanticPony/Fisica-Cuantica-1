@@ -6,6 +6,7 @@ Para más información sobre los archivos en esta carpeta busque el archivo en [
   - [input_reader_creator.py](#creador-de-librerias-de-lectura-de-datos)
 - [Schrödinger: Pozo](#schrödinger-pozo-de-elías-mejorado)
 - [Ejercicio 12 Schrödinger](#ejercicio-12-schrödinger)
+- [Rotor 1D](#rotor-1D)
 - [foo](#qué-puñetas-es-foo-y-por-qué-está-en-todas-partes)
 
 
@@ -67,11 +68,23 @@ por
 <!-- pagebreak -->
 
 
+## Rotor 1D
+>Este código tiene de base el dado por Elías. Pero con las siguientes modificaciones:
+>* Eliminar variables globales
+>* Limpiar y reducir fichero principal
+>* Comentar el significado de las variables
+>* Separar código en funciones coherentes
+
+En el estado actual hace lo mismo que el de Elías. Pero es más fácil de entender, debuguear y modificar.
+<!-- pagebreak -->
 
 ## Ejercicio 12 Schrödinger
 No está bien. Pero avanza en la dirección correcta. Aconsejo modificar al gusto
 <!-- pagebreak -->
+
+
+
+<!-- pagebreak -->
 # Qué puñetas es foo y por qué está en todas partes?
 > https://www.webopedia.com/TERM/F/foobar.html
 De nada
-    
