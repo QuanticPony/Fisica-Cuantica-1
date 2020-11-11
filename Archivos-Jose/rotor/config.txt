@@ -1,0 +1,14 @@
+L: numero máximo de funciones que usaremos en la base
+4
+
+nfun1: valor del estado mínimo que desea obtener
+0
+
+nfun2: valor del estado más alto que queremos listar
+1
+
+dphi: incremento de angulo que se usará en integrales y plots
+1
+
+Nest: numero de estados que se calcularán (y tamaño de las matrices)
+5
